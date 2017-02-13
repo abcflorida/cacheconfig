@@ -1,0 +1,29 @@
+{
+	"name": "abcflorida/cacheconfig",
+	"type": "platform-extension",
+	"description": "extend core settings",
+        "version": "1.0.0",
+	"authors": [
+		{
+			"name": "Brian Clinton",
+			"email": "flbrianc@gmail.com"
+		}
+	],
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://github.com/abcflorida/cacheconfig.git"
+		}
+	],
+	"require": {
+		"cartalyst/composite-config":"2.0"
+		
+	},
+	"autoload": {
+		"psr-4": {
+			"Abcflorida\\Cacheconfig\\": "src/"
+		}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
